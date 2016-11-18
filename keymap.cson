@@ -1,0 +1,26 @@
+# Enable vim-surround
+'atom-text-editor.vim-mode-plus.normal-mode':
+  'y s': 'vim-mode-plus:surround'
+  'm s': 'vim-mode-plus:map-surround'
+  'd s': 'vim-mode-plus:delete-surround-any-pair'
+  'c s': 'vim-mode-plus:change-surround-any-pair'
+
+# Jump between folds
+'atom-text-editor.vim-mode-plus:not(.insert-mode)':
+  '[': 'vim-mode-plus:move-to-previous-fold-start'
+  ']': 'vim-mode-plus:move-to-next-fold-start'
+  '(': 'vim-mode-plus:move-to-previous-fold-start-with-same-indent'
+  ')': 'vim-mode-plus:move-to-next-fold-start-with-same-indent'
+
+# Enable emmit tab expansion when in vim-mode-plus insert mode
+'atom-pane atom-text-editor[data-grammar~="slim"]:not([mini])':
+  'tab': 'emmet:expand-abbreviation-with-tab'
+
+'atom-pane atom-text-editor[data-grammar~="coffee"]:not([mini])':
+  'tab': 'emmet:expand-abbreviation-with-tab'
+
+'atom-pane atom-text-editor[data-grammar~="jsx"]:not([mini])':
+  'tab': 'emmet:expand-abbreviation-with-tab'
+
+'atom-pane atom-text-editor[data-grammar~="js"]:not([mini])':
+  'tab': 'emmet:expand-abbreviation-with-tab'

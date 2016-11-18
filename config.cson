@@ -1,0 +1,21 @@
+"*":
+  core:
+    themes: [
+      "dracula-ui"
+      "dracula-theme"
+    ]
+
+  editor:
+    showIndentGuide: true
+
+  "markdown-preview":
+    useGitHubStyle: true
+
+  react:
+    enabledForAllJavascriptFiles: true
+
+  "vim-mode-plus":
+    incrementalSearch: true
+
+  zentabs:
+    maximumOpenedTabs: 8
