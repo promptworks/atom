@@ -17,5 +17,8 @@
   "vim-mode-plus":
     incrementalSearch: true
 
+  welcome:
+    showOnStartup: false
+
   zentabs:
     maximumOpenedTabs: 8
