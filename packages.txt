@@ -10,6 +10,7 @@ javascript-snippets
 language-elixir
 language-slim
 linter
+linter-elixirc
 linter-erb
 linter-eslint
 linter-ruby
