@@ -1,4 +1,6 @@
 advanced-open-file
+atom-elixir
+autoclose-html
 autocomplete-modules
 docblockr
 dracula-theme
@@ -20,6 +22,7 @@ pigments
 react
 ruby-block
 ruby-block-converter
+ruby-test-switcher
 script
 todo-show
 vim-mode-plus
