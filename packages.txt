@@ -19,6 +19,7 @@ linter-ruby
 linter-slim
 merge-conflicts
 pigments
+pretty-json
 react
 ruby-block
 ruby-block-converter
