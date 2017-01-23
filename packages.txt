@@ -21,6 +21,7 @@ merge-conflicts
 pigments
 pretty-json
 react
+relative-numbers
 ruby-block
 ruby-block-converter
 ruby-test-switcher
